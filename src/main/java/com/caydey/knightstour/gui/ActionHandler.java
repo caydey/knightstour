@@ -1,8 +1,8 @@
-package knightstour.gui;
+package com.caydey.knightstour.gui;
 
-import knightstour.model.*;
-import knightstour.gui.board.*;
-import knightstour.gui.toolbar.*;
+import com.caydey.knightstour.model.*;
+import com.caydey.knightstour.gui.board.*;
+import com.caydey.knightstour.gui.toolbar.*;
 
 import javax.swing.JOptionPane;
 

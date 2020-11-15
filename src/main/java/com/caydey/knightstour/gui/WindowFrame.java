@@ -1,12 +1,12 @@
-package knightstour.gui;
+package com.caydey.knightstour.gui;
 
 import javax.swing.*;
 
 import java.awt.*;
 
-import knightstour.model.*;
-import knightstour.gui.board.*;
-import knightstour.gui.toolbar.*;
+import com.caydey.knightstour.model.*;
+import com.caydey.knightstour.gui.board.*;
+import com.caydey.knightstour.gui.toolbar.*;
 
 public class WindowFrame extends JFrame {
 
@@ -30,7 +30,7 @@ public class WindowFrame extends JFrame {
     c.fill = GridBagConstraints.HORIZONTAL;
 
     // icon
-    ImageIcon icon = new ImageIcon(getClass().getResource("board/img/knight.png"));
+    ImageIcon icon = new ImageIcon(getClass().getResource("/knight.png"));
     this.setIconImage(icon.getImage());
 
     // toolbar

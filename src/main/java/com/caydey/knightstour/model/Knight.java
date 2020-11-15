@@ -1,4 +1,4 @@
-package knightstour.model;
+package com.caydey.knightstour.model;
 
 import java.util.ArrayList;
 

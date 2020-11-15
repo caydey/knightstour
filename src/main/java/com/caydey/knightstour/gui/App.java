@@ -1,4 +1,4 @@
-package knightstour.gui;
+package com.caydey.knightstour.gui;
 
 import javax.swing.SwingUtilities;
 

@@ -1,10 +1,10 @@
-package knightstour.gui.board;
+package com.caydey.knightstour.gui.board;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
-import knightstour.model.TileState;
+import com.caydey.knightstour.model.TileState;
 
 public class TileButton extends JButton {
   private TileState state;
@@ -39,7 +39,7 @@ public class TileButton extends JButton {
       this.setBackground(Color.BLUE);
       if (state == TileState.KNIGHT) {
         // get image
-        ImageIcon imgIcon = new ImageIcon(getClass().getResource("img/knight.png"));
+        ImageIcon imgIcon = new ImageIcon(getClass().getResource("/knight.png"));
         Image img = imgIcon.getImage();
         // resize image
         Image resizedImage = img.getScaledInstance(40, 40, Image.SCALE_SMOOTH);

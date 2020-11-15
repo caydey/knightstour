@@ -1,10 +1,10 @@
-package knightstour.gui.board;
+package com.caydey.knightstour.gui.board;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-import knightstour.model.TileState;
+import com.caydey.knightstour.model.TileState;
 
 public class BoardPanel extends JPanel {
   private static TileButton[][] tileButtons;

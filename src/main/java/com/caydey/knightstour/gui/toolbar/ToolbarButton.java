@@ -1,4 +1,4 @@
-package knightstour.gui.toolbar;
+package com.caydey.knightstour.gui.toolbar;
 
 import javax.swing.JButton;
 import java.awt.Color;

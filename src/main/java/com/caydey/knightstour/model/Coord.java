@@ -1,4 +1,4 @@
-package knightstour.model;
+package com.caydey.knightstour.model;
 
 public class Coord {
   public int x;
